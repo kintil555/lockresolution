@@ -11,11 +11,11 @@ namespace LockResolution
     {
         private Timer _timer;
         private static readonly string ConfigPath = Path.Combine(
-            Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location),
+            AppContext.BaseDirectory,
             "lockresolution.cfg"
         );
         private static readonly string LogPath = Path.Combine(
-            Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location),
+            AppContext.BaseDirectory,
             "lockresolution.log"
         );
 
