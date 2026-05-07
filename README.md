@@ -12,15 +12,15 @@ Cocok untuk laptop/PC yang resolusinya balik ke native (misal 2560x1600) padahal
 - Monitor resolusi setiap N detik, langsung restore kalau berubah
 - Support **multi-monitor** — pilih monitor mana yang mau dikunci
 - Konfigurasi sepenuhnya via **CMD** (tidak perlu GUI)
-- Sangat ringan — tidak ada dependency tambahan selain .NET Framework 4.8
+- Sangat ringan — tidak ada dependency tambahan selain .NET 8 Runtime
 
 ---
 
 ## 📦 Requirement
 
 - Windows 10 / 11
-- .NET Framework 4.8 (sudah include di Windows 10/11)
-- Jika mau build sendiri: [.NET SDK](https://dotnet.microsoft.com/download)
+- **.NET 8 Runtime** — [Download di sini](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) (pilih ".NET Desktop Runtime 8.x")
+- Jika mau build sendiri: [.NET SDK 8.0+](https://dotnet.microsoft.com/download)
 
 ---
 

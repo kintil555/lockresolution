@@ -42,6 +42,8 @@ goto MENU
 :CUSTOM
 set /p cw="Width  (contoh: 1920): "
 set /p ch="Height (contoh: 1080): "
+if "%cw%"=="" ( echo [ERROR] Width tidak boleh kosong! & goto MENU )
+if "%ch%"=="" ( echo [ERROR] Height tidak boleh kosong! & goto MENU )
 set /p cm="Monitor index (0=utama, enter=skip): "
 if "%cm%"=="" (
     "%EXEPATH%" set %cw% %ch%

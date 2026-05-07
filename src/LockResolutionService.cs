@@ -3,7 +3,6 @@ using System.Runtime.InteropServices;
 using System.ServiceProcess;
 using System.Threading;
 using System.IO;
-using System.Reflection;
 
 namespace LockResolution
 {
