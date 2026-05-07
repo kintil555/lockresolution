@@ -13,6 +13,6 @@
     <StartupObject>LockResolution.LockResolutionService</StartupObject>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System.ServiceProcess" />
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="8.0.0" />
   </ItemGroup>
 </Project>
